@@ -2,10 +2,6 @@ from rest_framework import serializers
 from .models import Blog, Comment, Track, Album
 
 
-
-
-
-
 class CommentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Comment
